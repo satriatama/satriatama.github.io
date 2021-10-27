@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-color: black;
+}
+nav {
+  background: #fff005;
+  height: 8%;
+  width: 100%;
+  position: fixed;
+}
+label.logo {
+  color: black;
+  font-size: 30px;
+  margin: 4px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin: inherit;
+  padding: 3 px;
+  margin: 13px 13px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+  font-size: 13px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+a.active {
+  color: red;
+  transition: 1s;
+}
+
+a:hover {
+  background-color: black;
+  color: yellow;
+  transition: 0.5s;
+}
+#home {
+  color: white;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+}
+.hello {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.nama {
+  font-size: 40px;
+  font-weight: bolder;
+}
+span {
+  color: #fff504;
+  display: inline-block;
+}
+.tentang {
+  font-size: 20px;
+  font-weight: normal;
+  width: 35%;
+}
+.gambar img {
+  width: 220px;
+  position: absolute;
+  top: -30px;
+  right: 100px;
+  border: 3px solid #fff504;
+  border-radius: 30px;
+}
+.gambar img:hover {
+  width: 250px;
+  transition: 0.5s;
+  top: -32px;
+  right: 98px;
+}
+#about {
+  color: white;
+  position: absolute;
+  width: 80%;
+  left: 140px;
+}
+.about {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff504;
+}
+.gambartentang img {
+  width: 150px;
+  position: relative;
+  left: 431px;
+  border-radius: 100%;
+}
+/* bagian about */
+.display-4 {
+  font-weight: bold;
+}
+.jumbotron {
+  color: white;
+  padding-top: 100px;
+  width: 99%;
+}
+.jumbotron img:hover {
+  width: 230px;
+  transition: 0.5s;
+}
+.contactme {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+  right: -500px;
+  font-weight: bold;
+}
+.logos img {
+  width: 30px;
+  float: left;
+  position: relative;
+  margin-left: 30px;
+  top: 120px;
+  right: -550px;
+}
+.gmail img {
+  width: 41px;
+}
+.logos img:hover {
+  width: 33px;
+}
+.gmail img:hover {
+  width: 44px;
+}
