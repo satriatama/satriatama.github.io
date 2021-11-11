@@ -1,0 +1,51 @@
+#dalemmodal {
+  width: inherit;
+  margin: auto;
+  padding: 0;
+  background-color: #fff504;
+}
+.modal-header {
+  color: black;
+  background-color: #fff504;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  border: 2px solid #fff504;
+}
+input {
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+input:hover {
+  background-color: black;
+  cursor: pointer;
+  color: #fff504;
+}
+#confirm {
+  display: inline-block;
+  width: 15px;
+  position: relative;
+  top: -20px;
+  left: 74px;
+}
+#penjelasanconfirm {
+  width: 338px;
+  position: relative;
+  top: -65px;
+  left: 90px;
+}
+.btn {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.login {
+  position: relative;
+  top: 130px;
+  left: -28px;
+}
